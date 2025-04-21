@@ -1,5 +1,3 @@
-import streamlit as st
-
 
 import streamlit as st
 import spotipy
@@ -76,4 +74,3 @@ if artist_name:
                     st.success(f"✅ Playlist '{new_name}' đã được tạo và thêm bài hát!")
     else:
         st.warning("⚠️ Không tìm thấy bài hát nào.")
-
