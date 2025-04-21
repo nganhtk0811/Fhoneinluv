@@ -4,7 +4,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
 
-# Cấu hình Spotify OAuth
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id="1fda60773c3344c188c7a3bea0c8eb58",
     client_secret="30c823bdd5954e1bb942f8811b1744ae",
